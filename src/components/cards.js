@@ -12,6 +12,7 @@ function BasicExample() {
     <Card.Body>
       <Card.Title>{card.name}</Card.Title>
       <Card.Text>{card.description}</Card.Text>
+      <Card.Text>Price: {card.Price}$</Card.Text>
       <Button variant="primary">See more detail</Button>
     </Card.Body>
   </Card>
